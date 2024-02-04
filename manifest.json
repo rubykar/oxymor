@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Your Extension Name",
+  "version": "0.0.1",
+  "description": "Extension to know the substitutes",
+  "author": "Ruby kar",
+  "icons": {
+    "16": "icons/bait.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "meds.html"
+  },
+  "permissions": [
+   
+]
+}

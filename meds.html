@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Medicine Details</title>
+    <!-- <script>
+        function fetchMedicineDetails() {
+            var medicineName = document.getElementById("medicineName").value;
+            var apiUrl = "https://api.example.com/medicine-details?name=" + medicineName;
+
+            fetch(apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    // Display the medicine details on the page
+                    document.getElementById("medicineDetails").innerHTML = JSON.stringify(data);
+                })
+                .catch(error => {
+                    console.error("Error fetching medicine details:", error);
+                });
+        }
+    </script> -->
+</head>
+
+<body>
+    <h1>Medicine Details</h1>
+    <label for="medicineName">Medicine Name:</label>
+    <input type="text" id="medicineName" placeholder="Enter medicine name">
+    <button id="medName">Fetch Details</button>
+    <div id="medicineDetails"></div>
+    <!-- Add these div containers to your HTML -->
+    <div id="substitutesContainer"></div>
+    <div id="chemicalClassContainer"></div>
+
+    <script src="meds.js"></script>
+</body>
+
+</html>
